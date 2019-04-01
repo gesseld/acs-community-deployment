@@ -23,6 +23,10 @@ services:
                 -Dsolr.secureComms=none
                 -Dsolr.base.url=/solr
                 -Dindex.subsystem.name=solr6
+                -Dpdfrenderer.url=http://alfresco-pdf-renderer:8090/
+                -Dimagemagick.url=http://imagemagick:8090/
+                -Dlibreoffice.url=http://libreoffice:8090/
+                -Dtika.url=http://tika:8090/
                 -Dshare.host=localhost
                 -Dalfresco.port=8082
                 -Daos.baseUrlOverwrite=http://localhost:8082/alfresco/aos
